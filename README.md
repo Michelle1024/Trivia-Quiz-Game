@@ -1,32 +1,39 @@
 **TRIVIA QUIZ GAME**
 
-Trivia Quiz Game is a fun, entertaining and challenging site targeted towards web users that like to answer trivia questions. Trivia helps to keep the mind sharp and engaged, a plus for all occupations that require any amount of brainpower.
+Trivia Quiz Game is a fun, entertaining and challenging site targeted towards web users that like to answer trivia questions. Trivia helps to keep the mind sharp and engaged, a plus for all occupations that require any amount of brainpower. The live website can be found here https://michelle1024.github.io/Trivia-Quiz-Game/index.html
+
 ![Image of the quiz box](/assets/images/screenshot.jpeg)
 
 **FEATURES**
 **The Background Image**
 The background image is a colorful photograph of nature chosen to grab the user's attention.
+
 ![Image of the background image](/assets/images/background-image.jpeg)
 
 **Timer / Countdown**
 *The timer will allow the user to know how much time they have left to answer the ten trivia questions. It can add thrill to the challenge of the quiz. If the time runs out, the score will be zero if the user can not finish answering all the questions.
+
 ![Image of the quiz box](/assets/images/timer.jpeg)
 
 **Progress feature**
 *The progress section allows the user to see how far they are in the quiz.
+
 ![Image of the quiz box](/assets/images/progress.jpeg)
 
 **Questions**
 *This part is where the user can read the ten questions one at a time.
+
 ![Image of the quiz box](/assets/images/questions.jpeg)
 
 **Choices of Possible Answers**
 *This is where the user can see the four choices of possible answers to the trivia question. It will change color when hovering or clicked.
+
 ![Image of the quiz box](/assets/images/answer-choices.jpeg)
 
 **Score**
 *This section will allow the users to see how many correct answers they got.
 *It also allows the users to retry playing the quiz again.
+
 ![Image of the quiz box](/assets/images/score.jpeg)
 
 **TESTING**
@@ -34,8 +41,10 @@ The background image is a colorful photograph of nature chosen to grab the user'
 **Validator Testing**
 **HTML**
 *No errors were returned when passing through official W3C validator
+
 **CSS**
 *No errors were returned when passing through official (Jigsaw) validator
+
 **Javascript**
 *No errors were returned when passing through inspecting in Chrome
 
@@ -60,6 +69,7 @@ The project was deployed to GitHub Pages as follows:
 **CREDITS**
 **Content**
 *The texts for the questions and choices of possible answers are from www.google.com and https://thoughtcatalog.com/samantha-newman/2020/03/250-best-trivia-questions/.
+*The Font styles are from google fonts
 
 **Media**
 *The background photo was taken from www.pexels.com
