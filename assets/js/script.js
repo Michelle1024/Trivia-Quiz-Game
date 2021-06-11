@@ -99,6 +99,26 @@ let questions = [
         ["Mercury", "Venus", "Mars", "Jupiter"], "Venus"
     ),
     new Question(
+        "What country has the world’s most ancient forest?",
+        ["Australia", "Brazil", "Chile", "Japan"], "Australia"
+    ),
+    new Question(
+        "What is the most common letter in the English alphabet?",
+        ["A", "E", "O", "S"], "E"
+    ),
+    new Question(
+        "What is the driest continent?",
+        ["Africa", "South America", "Asia", "Antarctica"], "Antarctica"
+    ),
+    new Question(
+        "What is the most abundant element in the universe?",
+        ["Helium", "Oxygen", "Hydrogen", "Carbon"], "Hydrogen"
+    ),
+    new Question(
+        "What did the first vending machine dispense?",
+        ["Holy Water", "Coca Cola", "Chocolate Bars", "Chips"], "Holy Water"
+    ),
+    new Question(
         "How many eyes does a bee have?",
         ["Two", "Three", "Four", "Five"], "Five"
     )
