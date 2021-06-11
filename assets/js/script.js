@@ -80,3 +80,27 @@ function showScores() {
     quizElement.innerHTML = quizEndHTML;
 };
 
+// Create questions and answers
+let questions = [
+    new Question(
+        "Which country consumes the most chocolate per capita?",
+        ["Ireland", "Switzerland", "Austria", "Sweden"], "Switzerland"
+    ),
+    new Question(
+        "Which of Shakespeare’s plays is the longest?",
+        ["Macbeth", "King Lear", "Hamlet", "Twelfth Night"], "Hamlet"
+    ),
+    new Question(
+        "What color eyes do most humans have?",
+        ["Brown", "Blue", "Green", "Gray"], "Brown"
+    ),
+    new Question(
+        "Which planet is the hottest in the solar system?",
+        ["Mercury", "Venus", "Mars", "Jupiter"], "Venus"
+    ),
+    new Question(
+        "How many eyes does a bee have?",
+        ["Two", "Three", "Four", "Five"], "Five"
+    )
+];
+
