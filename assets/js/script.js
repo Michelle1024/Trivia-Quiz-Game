@@ -50,4 +50,33 @@ function displayQuestion() {
 
         showProgress();
     }
-}
+};
+
+function guess(id, guess) {
+    let button = document.getElementById(id);
+    button.onclick = function() {
+        quiz.guess(guess);
+        displayQuestion();
+    }
+};
+
+function showProgress() {
+    let currentQuestionNumber = quiz.questionIndex + 1;
+    let ProgressElement = document.getElementById("progress");
+    ProgressElement.innerHTML =
+    `Question ${currentQuestionNumber} of ${quiz.questions.length}`;
+};
+
+function showScores() {
+    let quizEndHTML =
+    `
+    <h1>Quiz Completed</h1>
+    <h2 id='score'> Your Score: ${quiz.score} of ${quiz.questions.length}</h2>
+    <div class="quiz-repeat">
+        <a href="index.html">Take Trivia Quiz Again</a>
+    </div>
+    `;
+    let quizElement = document.getElementById("quiz");
+    quizElement.innerHTML = quizEndHTML;
+};
+
