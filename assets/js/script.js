@@ -131,7 +131,7 @@ let quiz = new Quiz(questions);
 displayQuestion();
 
 //Add a Timer
-let time = 2;
+let time = 10;
 let quizTimeInMinutes = time * 60 * 60;
 let quizTime = quizTimeInMinutes / 60;
 

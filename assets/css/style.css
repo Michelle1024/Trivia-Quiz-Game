@@ -104,7 +104,7 @@ p {
 
 .btn:hover {
     cursor: pointer;
-    background-color: green;
+    background-color: goldenrod;
     color: white;
 }
 
